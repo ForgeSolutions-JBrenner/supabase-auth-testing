@@ -20,7 +20,7 @@ const Container = (props) => {
 
 export default function AuthBasic() {
   return (
-      <div className="container" style={{width: '50%', display: 'flex', justifyItems: 'center', color: 'black'}} >
+      <div className="container" style={{ display: 'flex', justifyItems: 'center', color: 'black'}} >
     {/* <Auth.UserContextProvider supabaseClient={supabase}> */}
       <Container>
         <Container>
